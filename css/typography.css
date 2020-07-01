@@ -1,0 +1,106 @@
+body{
+    font-family:Garamond, Georgia, serif;
+    font-size: 14sp;
+    color: #775555;
+    letter-spacing: 0.05rem;
+    line-height: 1.3;
+}
+h1, h2, h3, h4{
+    color: #442222;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header h1{
+    font-size: 2rem;
+    margin: 15% 0 7% 0;
+    text-align: center;
+}
+
+header h2{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+aside h1{
+    /* circle image */
+    width: 50%;
+    text-align: center;
+    transform: rotate(5deg);
+    
+
+    margin-left: 10%;
+    padding: 0.2rem;
+    
+
+    color: #eeeeff;
+    background-color: #775555;
+/* double border */
+    border: 0.1rem #fff solid;
+    outline: 0.3rem solid #442222;
+}
+
+h1{
+    font-size: 1.7rem;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+h2{
+    font-size: 1.5rem;
+}
+.jobs h2{
+    margin-top: 7%;
+}
+h4 {
+    margin-bottom: 5%;
+}
+
+main p {
+    text-indent: 1rem;
+    /* paragraph starts with one empty word space in the beginning . */
+    text-align: left;
+    margin-bottom: 3%;
+  }
+
+aside p{
+    margin-top: 10%;
+}
+
+footer section{
+    text-align: center;
+    width: 100%;
+}
+
+footer section p{
+    margin: 5% 0 5% 0;
+}
+
+a{
+    margin: 0 2rem 5% 0;
+
+}
+
+footer section a{
+    color: #442222;
+    text-decoration: none;
+}
+
+footer section a:active{
+    color: #775555;
+}
+
+footer section a:hover{
+    text-decoration: underline;
+}
+
+
+  
+@media (min-width: 600px) {
+    aside h1{
+        width: 75%;
+    }
+
+    .piece h2{
+        font-size: 1rem;
+        height: 3rem;
+        color: #775555;
+    }
+}

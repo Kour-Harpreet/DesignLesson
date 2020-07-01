@@ -1,0 +1,60 @@
+START
+	Files include HTML and images only so we can focus on CSS.
+	Show wireframe and discuss sitemaps
+	Agenda:
+		Download starter repo
+		Project setup
+		Layout and Mobile-first responsiveness
+		Backgrounds and Typography
+		Visual elements, special cases, details, and one-offs.
+		Testing, testing, testing
+PROJECT SETUP
+	Create Styles folder and stylesheet
+	Add links to stylesheet
+	bg color = red to test connection
+
+LAYOUT AND MOBILE FIRST RESPONSIVENESS
+	MOBILE LAYOUT
+	Use mobile emulator for your first design!!!
+	display: grid on body
+	move aside outside of main
+	Set template
+	Define grid areas (with clown colours to help see the layout on the page)
+	Repair image links by renaming the files, not the links
+	DESKTOP LAYOUT SETUP
+	Insert metadata tag
+	Create media query and use clown colour to test that it works
+	DESKTOP LAYOUT
+	Redo template-areas
+	Redo column measurements
+	Wrap jobs, job, school, and portfolio in divs so we can flex
+	Set flex-wrap, justify-content, and job width (leave school width and portfolio width)
+	On .job and .piece set width to 45% and 30% to get jobs and portfolio pieces into their own mini-grids.
+BACKGROUNDS
+	Set html bg color to off-white (to have easier contrast with the off-black we're going to use for the text)
+	Add reset script (should've done this waaaay earlier)
+	Move portfolio pieces around because the reset made me realize there's a better layout possible.
+TYPOGRAPHY
+	Create new typography script with clown colours to see if it's hooked up right.
+	Remove the clown colours and pick something nice. I picked a warm off-black and a lighter version of the same.
+	I do a lot of back and forth with typography because I find it to be finicky, 
+	but I still try to work from most-general to most-specific. 
+	In this case I started by setting global styles, 
+	then working down through the headings in order of their hierarchy. 
+	I left off with the "Now Teaching!" text which was a special one-off case. 
+	I also lightened and shrunk the titles of the portfolio pieces so that the text wouldn't distract from the images.
+	I try to make sure I pick good font-faces based on advice from online 
+	(pairing fonts is like pairing wines and cheeses)
+	ADD THE CONTENT FOR THE SOCIAL LINKS
+	The footer needed a bit more whitespace.
+	Had to style the links seperately from the rest of the text. 
+	(I chose to use the underlines to highlight links on hover)
+VISUAL ELEMENTS, SPECIAL CASES, DETAILS, AND ONE-OFFS
+	This is the time to start getting picky with the little things. 
+	This part is where most people seem to start on, 
+	but I think you will find it much easier now that you have the broad strokes.
+
+	Made the photo a circle and brought the label up to overlap the photo.
+	Added some padding to the aside (mobile only)
+	Added height to .piece h2 because I wanted all of the pictures in-line w/ each other.
+	

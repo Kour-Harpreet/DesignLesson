@@ -1,0 +1,70 @@
+html{ 
+    background-color: #eeeeff;
+
+}
+body{
+    display: grid;
+    /* mobile layout */
+    /*3-column layout*/
+    grid-template-areas: 
+    /* . – a period signifies an empty grid cell */
+    ". header ."              
+    "aside aside aside"
+    ". main ."
+    "footer footer footer"
+    ;
+    /* The fr unit allows you to set the size of a track as a fraction of the free space of the grid container. For example, this will set each item to one third the width of the grid container: here it is 1:9:1/
+    /* grid-template-columns: 1fr 9fr 1fr;  */
+}
+
+header {
+    grid-area: header;
+}
+aside {
+    grid-area: aside;
+    padding: 1.75rem;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+aside img{
+    padding: .1rem;
+    border-radius: 50%;
+    border: 0.3rem #442222 solid;/*looks the same as in typography.css, but this time with differnt properties!*/
+    margin-bottom: -20%;
+}
+/* this is for desktop layout */
+@media (min-width: 600px) {
+    body {
+        /*7-column layout*/
+        grid-template-areas: 
+            ". header header header aside aside ."
+            ". main main main main main ."
+            ". footer footer footer footer footer .";
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    aside {
+        padding: 0;
+    }
+    .jobs, .portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .job{
+        width: 45%;
+    }
+    .piece{
+        width: 30%;
+    }
+
+}
