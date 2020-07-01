@@ -1,0 +1,6 @@
+Here are a couple of resources discussed during today's classes:
+https://flexboxfroggy.com/  
+https://geddski.teachable.com/p/flexbox-zombies 
+https://css-tricks.com/dont-overthink-it-grids/ 
+https://css-tricks.com/dont-overthink-flexbox-grids/ 
+https://css-tricks.com/snippets/css/complete-guide-grid/ 
